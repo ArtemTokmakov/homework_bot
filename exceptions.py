@@ -20,3 +20,15 @@ class ParseStatusException(Exception):
     """Ошибка  формата статуса."""
 
     pass
+
+
+class InvalidAPIAnswerException(Exception):
+    """Ошибка API."""
+
+    pass
+
+
+class UnknownException(Exception):
+    """Неизвестная ошибка."""
+
+    pass
